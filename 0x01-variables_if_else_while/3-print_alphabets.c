@@ -17,7 +17,8 @@ for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
 }
-for (x = 'A'; x <= 'Z'; x++) {
+for (x = 'A'; x <= 'Z'; x++)
+{
 putchar(x);
 }
 putchar('\n');
