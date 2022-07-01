@@ -15,14 +15,14 @@ int x = '0';
 
 while (x <= '9')
 {
+putchar(x);
 if (x != '9')
 {
-putchar(x);
 putchar(',');
 putchar(' ');
 }
 x++;
 }
-putchar('9');
+putchar('\n');
 return (0);
 }
