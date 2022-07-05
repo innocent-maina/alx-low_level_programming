@@ -2,35 +2,35 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - prints numbers from num to 98,
+ * print_to_98 - prints all natural numbers from n to 98,
  *
- * @num: print from this number to 98
- * Return:  0
+ * @n: print from this number
+ * Return: Always 0 (Successful)
  */
 
-void print_to_98(int num)
+void print_to_98(int n)
 {
 int i;
 int j;
 
-if (num <= 98)
+if (n <= 98)
 {
-for (i = num; i <= 98; i++)
+for (i = n; i <= 98; i++)
 {
 if (i != 98)
 printf("%d, ", i);
 else if (i == 98)
-printf("%d\num", i);
+printf("%d\n", i);
 }
 }
-else if (num >= 98)
+else if (n >= 98)
 {
-for (j = num; j >= 98; j--)
+for (j = n; j >= 98; j--)
 {
 if (j != 98)
 printf("%d, ", j);
 else if (j == 98)
-printf("%d\num", j);
+printf("%d\n", j);
 }
 }
 }
