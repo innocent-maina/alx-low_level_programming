@@ -5,16 +5,16 @@
 * Return: last digit
 */
 int print_last_digit(int num)
+int lastDigit = num % 10;
 {
 if (num >= 0)
 {
 _putchar(num + '0');
-return (num % 10);
+return (lastDigit);
 }
 else
 {
 _putchar(-num + '0');
-return (-num % 10);
+return (-lastDigit);
 }
 }
-
