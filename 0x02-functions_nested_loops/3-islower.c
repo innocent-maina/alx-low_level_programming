@@ -1,10 +1,10 @@
 #include "main.h"
 /*
- * _islower - Entry point
+ * _islower - Entry point. Print characters if uppercase or lowercase
  *
  * Description: 'the program's description'
- *
- * Return: 0
+ *@c: character to check if uppercase or lowercase
+ * Return: 1 if uppercase, 0 if lowercase
  */
 
 int _islower(int c)
