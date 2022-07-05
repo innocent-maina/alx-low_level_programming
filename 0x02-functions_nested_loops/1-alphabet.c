@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
  * Description: 'the program's description'
  *
@@ -15,5 +15,4 @@ for (i = 'a'; i < 'z'; i++)
 _putchar(i);
 _putchar('\n');
 }
-return (0);
 }
