@@ -13,7 +13,7 @@ for (j = 0; j <= 9; j++)
 {
 for (j = 0; j <= 9; j++)
 {
-k = i * j;
+int k = i * j;
 _putchar(k + '0');
 _putchar(',');
 _putchar(' ');
