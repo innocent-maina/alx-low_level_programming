@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
 * _isupper - takes a date and prints how many days are
@@ -9,8 +8,7 @@
 
 int _isupper(int c)
 {
-int c;
-if (c >= 65 && c <= 90)
+if (c >= 'A' && c <= 'Z')
 {
 return (1);
 }
