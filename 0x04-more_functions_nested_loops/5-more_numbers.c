@@ -13,9 +13,9 @@ int j = 0;
 
 while (j < 10)
 {
-for (i = 48; i <= 62; i++)
+for (i = 0; i <= 14; i++)
 {
-_putchar(i * 10);
+_putchar(i);
 }
 _putchar('\n');
 j++;
