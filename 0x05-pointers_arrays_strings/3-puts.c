@@ -1,14 +1,17 @@
-#include "main.h"
+#include <stdio.h>
+#include <string.h>
+/*
+* main - Entry point
+*
+* Description: 'the program's description'
+*
+* Return: 0
+*/
 
-/**
- * _puts - this is the description.
- * @str : pointer
- * Return: this is the return value.
- */
-
-
-void _puts(char *str)
+int main(void)
 {
-puts(*str);
+char wahome[] = "This is my string ";
+int length = strlen(wahome);
+puts(wahome);
 puts("\n");
 }
