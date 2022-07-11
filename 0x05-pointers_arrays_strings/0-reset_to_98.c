@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - this is the description.
+ * @n : pointer
  * Return: nothing.
  */
 
