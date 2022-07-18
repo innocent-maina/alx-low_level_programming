@@ -1,20 +1,20 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 
 /**
- * print_chessboard - prints the chessboard
- * @a: array
- */
+ * print_chessboard - prints chessboard.
+ * @a: matrix
+*/
+
 void print_chessboard(char (*a)[8])
 {
-int row;
-int  column;
+int i, j;
 
-for (row = 0; row < 8; row++)
+for (i = 0; i < 8; i++)
 {
-for (column = 0; column < 8; column++)
-_putchar(a[row][column]);
+for (j = 0; j < 8; j++)
+{
+_putchar(*(*(i + a) + j));
+}
 _putchar('\n');
 }
 }
