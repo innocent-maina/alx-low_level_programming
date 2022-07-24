@@ -19,7 +19,6 @@ return (1);
 }
 else
 {
-
 for (i = 1; i < argc; i++)
 {
 mul *= atoi(argv[i]);
@@ -27,5 +26,4 @@ mul *= atoi(argv[i]);
 printf("%d\n", mul);
 return (0);
 }
-return (EXIT_SUCCESS);
 }
