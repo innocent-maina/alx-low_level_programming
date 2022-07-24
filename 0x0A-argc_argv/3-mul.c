@@ -14,7 +14,7 @@ int mul = 1;
 int i;
 if (argc != 3)
 {
-printf("Error \n");
+printf("Error\n");
 return (1);
 }
 else
