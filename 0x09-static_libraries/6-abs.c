@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs - check the code for Holberton School students.
+ * _abs - Entry point.
  *
  * @n: is an integer argument
  *

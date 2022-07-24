@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha - check the code for Holberton School students.
+ * _isalpha - Entry point.
  *
  * @c: is c an integer argument
  *

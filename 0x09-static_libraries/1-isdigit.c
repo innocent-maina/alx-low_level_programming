@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit - check the code for Holberton School students.
+ * _isdigit - Entry point.
  *
  * @c: is an integer param
  *
