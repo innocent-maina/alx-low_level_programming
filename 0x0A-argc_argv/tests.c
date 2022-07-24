@@ -9,9 +9,9 @@
  * Return: program name argv[0]
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char * argv[])
 {
-printf("%s", argv[argc - 1]);
+  printf("%s", argv[argc - 1]);
 
-return (EXIT_SUCCESS);
+  return (EXIT_SUCCESS);
 }
