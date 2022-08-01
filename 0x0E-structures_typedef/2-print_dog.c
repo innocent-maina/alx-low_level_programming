@@ -4,7 +4,7 @@
 /**
  * print_dog - check the code
  *
- * Return: Always 0.
+ * Return: void
  * Description - This function prints the struct dog
  * @d: pointer to the struct dog
  */
