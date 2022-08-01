@@ -17,10 +17,6 @@ if (!d->name)
 {
 printf("Name: (nill)");
 }
-else if (!d->age)
-{
-printf("Age: (nill)");
-}
 else if (!d->owner)
 {
 printf("Owner: (nill)");
