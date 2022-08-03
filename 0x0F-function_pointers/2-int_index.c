@@ -9,6 +9,7 @@
  * @cmp: pointer to the function you need
  * @array: array to execute func on
  * int_index - index of the first element cmp returns 0
+ * Description -  returns the index of the first element cmp returns 0
  * Return: void
  */
 
